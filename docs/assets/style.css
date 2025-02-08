@@ -51,9 +51,9 @@ div.announcements, div.dates
 
 .navbar, .dropdown-menu
 {
-    background-color: #012367;
-    margin: 0px;
-    padding: 0px;
+    /* background-color: #012367; */
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
 
 .nav-item
@@ -106,5 +106,9 @@ li .date strong {
     font-size: 3em;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+li .date emph {
+    font-style: normal;
 }
 
