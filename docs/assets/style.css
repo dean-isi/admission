@@ -28,10 +28,7 @@ header
 .copyright
 {
     padding: 3em 0em;
-    background: url(images/img10.png) no-repeat center top;
     text-align: center;
-    /* text-transform: uppercase;   */
-    /* color: rgba(255,255,255,.4); */
     color: black;
 }
 
@@ -61,19 +58,19 @@ div.announcements, div.dates
 
 .nav-item
 {
-    background-color: #012367;
-    border: solid 1px #123478;
+    /* background-color: #012367; */
+    /* border: solid 1px #123478; */
 }
 
 .nav-item a
 {
-    color: #eeeeee;
+    /* color: #eeeeee; */
     text-transform: uppercase;
 }
     
 .nav-item:hover
 {
-    background-color: #1515ee;
+    /* background-color: #1515ee; */
 }
 
 div.dates ul
@@ -90,7 +87,6 @@ li .date
     height: 78px;
     margin: 0px 25px 0px 0px;
     padding: 6px 0px 0px 0px;
-    background: url(images/img07.jpg) no-repeat left top;
     line-height: normal;
     letter-spacing: 1px;
     text-align: center;
@@ -106,15 +102,9 @@ li .date strong {
     margin: 5px 0px 0px 0px;
     padding: 0;
     letter-spacing: -1px;
+    font-style: normal;
     font-size: 3em;
     font-weight: 500;
     color: #FFFFFF;
 }
 
-li .date a {
-    color: #FFFFFF;
-}
-
-li .date a:hover {
-    text-decoration: none;
-}
