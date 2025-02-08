@@ -29,16 +29,16 @@
 	    <li class="nav-item"><a class="nav-item nav-link active" aria-current="page" href="/admission/">Home</a></li>
 
 	    <li class="nav-item dropdown">
-	      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: #bbbbee;" role="button" data-bs-toggle="dropdown" aria-expanded="false">Application</a>
-	      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		{% include application.html %}
+	      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Application</a>
+	      <ul class="dropdown-menu">
+{% include application.html %}
 	      </ul>
 	    </li>
 
 	    <li class="nav-item dropdown">
-	      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Written Tests</a>
-	      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		{% include written-tests.html %}
+	      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Written Tests</a>
+	      <ul class="dropdown-menu">
+{% include written-tests.html %}
 	      </ul>
 	    </li>
 
@@ -49,9 +49,9 @@
             <li class="nav-item"><a class="nav-link disabled" aria-current="page" href="#">Admission</a></li>
 
 	    <li class="nav-item dropdown">
-	      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">General Information</a>
-	      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		{% include general-information.html %}
+	      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">General Information</a>
+	      <ul class="dropdown-menu">
+{% include general-information.html %}
 	      </ul>
 	    </li>
 
@@ -74,9 +74,11 @@
 
 	<div class="news blue">
 
-	  <p class="text-center" style="font-weight: bold;">For any query not answered in
+	  <p>
+	    For any query not answered in
 	    the <a href='Documents/IsiAdmission2023/FAQ.pdf'>FAQs</a>,
 	    contact <code>&lt;admissionsupport@isical.ac.in&gt;</code>
+	  </p>
 
 	</div>
 

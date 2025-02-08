@@ -58,6 +58,8 @@ div.announcements, div.dates
 
 .nav-item
 {
+    text-transform: uppercase;
+    font-size: 90%;
     /* background-color: #012367; */
     /* border: solid 1px #123478; */
 }
@@ -65,7 +67,6 @@ div.announcements, div.dates
 .nav-item a
 {
     /* color: #eeeeee; */
-    text-transform: uppercase;
 }
     
 .nav-item:hover
